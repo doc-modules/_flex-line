@@ -1,0 +1,23 @@
+$b: ".flex-line";
+
+#{$b} {
+
+  display: flex;
+  flex-direction: row;
+
+  #{$b}__el {
+    display: inline-block;
+  }
+
+}
+
+#{$b}--jsb {
+  justify-content: space-between;
+}
+
+#{$b}#{$b}--vertical-middle {
+
+  align-content: center;
+  align-items: center;
+
+}
